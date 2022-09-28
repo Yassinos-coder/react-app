@@ -7,9 +7,168 @@ body {
   font-family: "Noto Sans JP", sans-serif;
 }
 
-.container {
-  width: 500px;
-  height: 450px;
-  background-color: rgba(221, 219, 219, 0.4);
+.mainForm {
+  width: 45%;
+  height: 510px;
+  background-color: rgba(221, 219, 219, 0.5);
+  margin-left: 26%;
+  margin-top: 10%;
+  border-radius: 8px;
+  box-shadow: 5px 10px 50px #555555;
 }
 
+.mainForm .title {
+  text-align: center;
+  background-color: rgba(245, 245, 245, 0.5);
+}
+
+.signinForm .input {
+  width: 270px;
+  font-size: 17px;
+  height: 45px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 11px;
+  margin-left: 6%;
+}
+
+.signinForm .label {
+  display: block;
+  margin-top: 6%;
+  font-size: 20px;
+  margin-left: 55px;
+  font-style: italic;
+  font-weight: 600;
+}
+.buttons {
+  margin-left: 13%;
+  padding-top: 15px;
+}
+
+.buttons .btn1 {
+  width: 150px;
+  height: 40px;
+}
+
+.signupForm {
+  margin-left: 60%;
+  margin-top: -35%;
+}
+.signupForm .input {
+  width: 270px;
+  font-size: 17px;
+  height: 31px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 11px;
+  margin-left: 6%;
+}
+
+.signupForm .label {
+  display: block;
+  font-size: 20px;
+  margin-left: 28px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+
+
+.signupForm .buttons .btn2 {
+  width: 100px;
+  height: 37px;
+  margin-right: 5px;
+}
+.signupForm .buttons .btn3 {
+  width: 100px;
+  height: 37px;
+}
+
+.signupForm .buttons .small-p{
+  margin-right: 64px;
+  color: black;
+  font-weight: 800;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: url(../img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .mainForm {
+    width: 100%;
+    height: 510px;
+    margin-left: 0;
+  }
+
+  .signinForm .input {
+    width: 220px;
+    font-size: 17px;
+    height: 36px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 11px;
+    margin-left: 2%;
+  }
+
+  .signinForm .label {
+    display: block;
+    margin-top: 3%;
+    font-size: 16px;
+    margin-left: 16px;
+    font-style: italic;
+    font-weight: 600;
+  }
+  .buttons {
+    margin-left: 7%;
+    padding-top: 15px;
+  }
+  
+  .buttons .btn1 {
+    width: 150px;
+    height: 40px;
+  }
+  /*  ***********************************************************   */
+  .signupForm {
+    margin-left: 47%;
+    margin-top: -38%;
+  }
+  .signupForm .input {
+    width: 220px;
+    font-size: 17px;
+    height: 36px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 11px;
+    margin-left: 6%;
+  }
+  
+  .signupForm .label {
+    display: block;
+    font-size: 16px;
+    margin-left: 28px;
+    font-style: italic;
+    font-weight: 600;
+  }
+  
+  
+  
+  .signupForm .buttons .btn2 {
+    width: 100px;
+    height: 37px;
+    margin-right: 5px;
+  }
+  .signupForm .buttons .btn3 {
+    width: 100px;
+    height: 37px;
+  }
+  
+  .signupForm .buttons .small-p{
+    margin-right: 64px;
+    color: black;
+    font-weight: 800;
+    text-align: center;
+  }
+}
