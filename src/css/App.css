@@ -1,33 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap");
+body {
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+}
 .app {
   font-family: "Noto Sans JP", sans-serif;
 }
 
-.signup {
-  height: 550px;
-  width: 450px;
-  background-color: aqua;
-  margin-left: 65%;
-  margin-top: 8%;
+.container {
+  width: 500px;
+  height: 450px;
+  background-color: rgba(221, 219, 219, 0.4);
 }
 
-.signup-form {
-  padding-top: 50px;
-  margin-left: 20%;
-}.signup-form h2 {
-    margin-left: 20%;
-    margin-top: 2px;
-}
-label {
-    display: block;
-    font-weight: 600;
-}
-input {
-    display: block;
-    width: 257px;
-    height: 25px;
-    background-color: white;
-    border: 1px white;
-    border-radius: 5px;
-    text-decoration: none;
-}
