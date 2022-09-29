@@ -3,7 +3,7 @@ import "../css/App.css";
 import { Button } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-const Header = () => {
+const Panel = () => {
   return (
    <div className="mainForm">
         <div className="title">
@@ -38,4 +38,4 @@ const Header = () => {
    </div>
   );
 };
-export default Header;
+export default Panel;

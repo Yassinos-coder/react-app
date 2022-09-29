@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+
 body {
   background-image: url(../img/bg.jpg);
   background-size: cover;
@@ -72,8 +75,6 @@ body {
   font-weight: 600;
 }
 
-
-
 .signupForm .buttons .btn2 {
   width: 100px;
   height: 37px;
@@ -84,7 +85,7 @@ body {
   height: 37px;
 }
 
-.signupForm .buttons .small-p{
+.signupForm .buttons .small-p {
   margin-right: 64px;
   color: black;
   font-weight: 800;
@@ -125,7 +126,7 @@ body {
     margin-left: 7%;
     padding-top: 15px;
   }
-  
+
   .buttons .btn1 {
     width: 150px;
     height: 40px;
@@ -144,7 +145,7 @@ body {
     border-radius: 11px;
     margin-left: 6%;
   }
-  
+
   .signupForm .label {
     display: block;
     font-size: 16px;
@@ -152,9 +153,7 @@ body {
     font-style: italic;
     font-weight: 600;
   }
-  
-  
-  
+
   .signupForm .buttons .btn2 {
     width: 100px;
     height: 37px;
@@ -164,11 +163,154 @@ body {
     width: 100px;
     height: 37px;
   }
-  
-  .signupForm .buttons .small-p{
+
+  .signupForm .buttons .small-p {
     margin-right: 64px;
     color: black;
     font-weight: 800;
     text-align: center;
   }
+}
+
+@media only screen and (max-width: 576px) {
+  body {
+    background-image: url(../img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .mainForm {
+    width: 100%;
+    height: 510px;
+    margin-left: 0;
+  }
+
+  .signinForm .input {
+    width: 150px;
+    font-size: 13px;
+    height: 36px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 11px;
+    margin-left: 2%;
+  }
+  
+
+  .signinForm .label {
+    display: block;
+    margin-top: 3%;
+    font-size: 16px;
+    margin-left: 12px;
+    font-style: italic;
+    font-weight: 600;
+  }
+  .buttons {
+    margin-left: 4%;
+    padding-top: 12px;
+  }
+
+  .buttons .btn1 {
+    width: 100px;
+    height: 40px;
+  }
+  /*  ***********************************************************   */
+  .signupForm {
+    margin-left: 45%;
+    margin-top: -45%;
+  }
+  .signupForm .input {
+    width: 180px;
+    font-size: 14px;
+    height: 36px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 11px;
+    margin-left: 6%;
+  }
+
+  .signupForm .label {
+    display: block;
+    font-size: 16px;
+    margin-left: 18px;
+    font-style: italic;
+    font-weight: 600;
+  }
+
+  .signupForm .buttons .btn2 {
+    width: 90px;
+    height: 37px;
+    margin-right: 5px;
+  }
+  .signupForm .buttons .btn3 {
+    width: 90px;
+    height: 37px;
+  }
+
+  .signupForm .buttons .small-p {
+    margin-right: 28px;
+    color: black;
+    font-weight: 800;
+    text-align: center;
+    font-size: 11px;
+  }
+}
+
+/* Footer ***************************************************  */
+
+.Footer {
+  background-color: rgba(222, 184, 135, 0.596);
+  margin-top: 222px;
+  height: 51px;
+}
+
+.f-left {
+  padding-top: 3px;
+  margin-left: 100px;
+  font-size: 25px;
+  font-weight: 800;
+  letter-spacing: 4px;
+}
+
+.f-right {
+  margin-top: -72px;
+  margin-left: 70%;
+}
+.p-footer {
+  position: absolute;
+  margin-top: 23px;
+  border-radius: 8px;
+  border: 1px solid red;
+  font-size: 20px;
+  margin-left: -44%;
+  font-family: 'Bungee Spice', cursive;
+  background-color: rgba(226, 216, 216, 0.733);
+}
+
+.f-fa {
+  position: absolute;
+  margin-top: 19px;
+  font-size: 25px;
+  margin-left: 340px;
+}
+.f-p {
+  margin-left: -85px;
+  font-size: 20px;
+  font-weight: 900;
+  margin-top: 4px;
+  position: absolute;
+}
+.fa {
+  margin-right: 5px;
+  cursor: pointer;
+}
+.facebook {
+  color: #1778F2
+}
+.discord {
+  color: #738ADB;
+}
+.whatsapp {
+  color: #4FCE5D;
+}
+.twitter {
+  color: #1DA1F2;
 }
